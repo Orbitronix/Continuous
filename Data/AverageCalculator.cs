@@ -24,10 +24,10 @@ namespace Data
                 average += value.Value;
             }
 
-            if (values.Count() > 0)
-            {
-                average /= values.Count();
-            }
+            // if (values.Count() > 0)
+            //{
+            average /= values.Count();
+            // }
 
             return average;
         }
