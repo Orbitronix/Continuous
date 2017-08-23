@@ -8,6 +8,9 @@ namespace Data
 {
     public static class AverageCalculator
     {
+        /// <summary>
+        /// Calculates the mean average of a provided set of values
+        /// </summary>
         public static float CalculateMeanAverage<T>(IEnumerable<T> values) where T : IValueProvider
         {
             if (values == null)
